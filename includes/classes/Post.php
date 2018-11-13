@@ -226,14 +226,14 @@
                                 $body
                                 <br>
                                 <br>
-                                <br>
                                 </div>
                                 <br>
                                 <br>
                             </div>
                          
                             <div class='newsfeedPostOption' style='color:#337ab7; font-weight: 700; margin:5px 0;'>
-                                Comments($comment_check_num)&nbsp;&nbsp;&nbsp;
+                                Comments ($comment_check_num)&nbsp;&nbsp;&nbsp;
+                                <iframe src='like.php?post_id=$id' scrolling='no'></iframe>
                             </div>
                              
                             <div class='post_comment' id='toggleComment$id' style='display:none;'>

@@ -183,3 +183,27 @@ nav a:hover, nav a:first-of-type:hover{
 .posts_area > img{
     display: block !important;
 }
+
+.newsfeedPostOption iframe{
+    border: 0px;
+    height: 17px;
+    width: 120px;
+}
+
+.comment_like{
+    background: transparent;
+    border:none;
+    font-size: 14px;
+    font-weight: bold;
+    width: auto;
+    height: auto;
+    color:#1894ca;
+    padding: 0;
+}
+
+.like_value{
+    display: inline;
+    font-size: 14px;
+
+}
+
