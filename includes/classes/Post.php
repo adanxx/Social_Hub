@@ -151,6 +151,7 @@
                     $start_date = new DateTime($date_time); // Time posted
                     $end_date = new DateTime($date_time_now); // Current Time 
                     $interval = $start_date->diff($end_date); // Different between the date
+                    $time_message;
 
                     if($interval-> y >= 1){
                         if($interval == 1){
